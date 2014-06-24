@@ -1,0 +1,53 @@
+shoot			misc322-photonshot.wav
+explo			misc186-cannonshot.wav
+
+
+shipmap			shipmap.png	0	20	93	98	0	0
+linkmap			linkormap.png	0	0	87	104	0	0
+lolmap			lolmap.png	0	8	87	83	1	0
+explomap			GasExplosion.gif	0	0	96	96	0	0
+bulletmap			burstbullet.gif		0	0	60	85	0	0
+font_map			font293-tr.gif				0	0	32	20	0	0
+bgimg		p	0	bg.jpg         	-	0	0	0	0
+player		p	0	lawl-ship.png	-	5	8	90	80
+enemies		p	0	imp-ship.png	-	12	10	70	80
+linkor		p	0	linkor.png	-	3	0	90	103
+
+sh_r1	p	0	shipmap	0	-	15	18	95	100
+sh_r2	p	0	shipmap	1	-	15	18	95	100
+sh_r3	p	0	shipmap	2	-	15	18	95	100
+sh_l1	p	0	shipmap	0	x	15	18	95	100
+sh_l2	p	0	shipmap	0	x	15	18	95	100
+sh_l3	p	0	shipmap	2	x	15	18	95	100
+lol1	p	0	lolmap	0	-	0	8	87	93
+lol2	p	0	lolmap	1	-	0	8	87	93
+lol3	p	0	lolmap	2	-	0	8	87	93
+lk1	p	0	linkmap	0	-	3	0	86	104
+lk2	p	0	linkmap	1	-	3	0	86	104
+lk3	p	0	linkmap	2	-	3	0	86	104
+explo1		p	0	explomap	1	-	0	0	32	32
+explo2		p	0	explomap	2	-	0	0	32	32
+explo3		p	0	explomap	3	-	0	0	32	32
+explo4		p	0	explomap	4	-	0	0	32	32
+explo5		p	0	explomap	5	-	0	0	32	32
+explo6		p	0	explomap	6	-	0	0	32	32
+explo7		p	0	explomap	7	-	0	0	32	32
+explo8		p	0	explomap	8	-	0	0	32	32
+explo9		p	0	explomap	9	-	0	0	32	32
+explo10		p	0	explomap	10	-	0	0	32	32
+explo11		p	0	explomap	11	-	0	0	32	32
+explo12		p	0	explomap	12	-	0	0	32	32
+explo13		p	0	explomap	13	-	0	0	32	32
+explo14		p	0	explomap	14	-	0	0	32	32
+bullet1		p	0	bulletmap	0	-	8	32	48	48
+bullet2		p	0	bulletmap	1	-	8	32	48	48
+bullet3		p	0	bulletmap	2	-	8	32	48	48
+
+
+
+explo		explo1;explo2;explo3;explo4;explo5;explo6;explo7;explo8;explo9;explo10;explo11;explo12;explo13;explo14	0.45
+bullet		bullet1;bullet2;bullet3;bullet2				0.5
+sh_r		sh_r1;sh_r2;sh_r3;	0.1
+sh_l		sh_l1;sh_l2;sh_l3;	0.1
+lol		lol1;lol2;lol3;	0.1
+lk		lk1;lk2;lk3;	0.1
